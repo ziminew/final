@@ -1,0 +1,538 @@
+/* @-webkit-keyframes jungwoos {
+	0% {
+        margin-left: 0;
+	}
+    
+	50% {
+        margin-left: 500px;
+	}
+
+	100% {
+        margin-left: 0;
+	}
+} */
+
+
+.text1 {
+    background-color: white;
+    border: 3px solid black;
+}
+
+.text2 {
+    background-color: white;
+    border: 3px solid black;
+}   
+
+.text3 {
+    background-color: white;
+    border: 3px solid black;
+}
+
+.text4 {
+    background-color: white;
+    border: 3px solid black;
+}
+
+.title1 {
+    padding: 0;
+    margin: 0;
+
+	font-size: 800%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+    top: 2%;
+
+    overflow: hidden;
+    animation: typing 3s steps(200, end) 1;
+
+}
+
+.title2 {
+    padding: 0;
+    margin: 0;
+
+	font-size: 800%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 4.2%;
+    top: 16%;
+
+    overflow: hidden;
+    animation: typingg 1.5s steps(200, end) 1; /*opp 3s ease-in-out;*/
+    
+}
+
+.title3 {
+    padding: 0;
+    margin: 0;
+
+    font-size: 180%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 11%;
+    top: 36.5%;
+
+    overflow: hidden;
+    animation: typinggg 1.0s steps(200, end) 1
+}
+
+.album {
+    padding: 0;
+    margin: 0;
+
+	font-size: 250%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+    top: 77%;
+
+    animation: blinkk 7.0s ease-in-out ; 
+}
+
+.singer {
+    padding: 0;
+    margin: 0;
+
+	font-size: 250%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+    top: 82%;
+
+    animation: blinkk 8.5s ease-in-out ; 
+}
+
+.date {
+    padding: 0;
+    margin: 0;
+
+	font-size: 250%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+    top: 89%;
+
+    animation: blinkk 10.0s ease-in-out ; 
+}
+
+
+.circle1 {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 4px solid #0164FF;
+
+    left: 57%;
+    top: 13%;
+    position: absolute;
+
+    
+
+}
+
+.circle2 {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 4px solid #0164FF;
+
+    left: 15%;
+    top: 58%;
+    position: absolute;
+
+    
+
+}
+
+.circle3 {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 4px solid #0164FF;
+
+    left: 75%;
+    top: 80%;
+    position: absolute;
+
+    
+}
+
+.sts1 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: black;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+    top: 40%;
+
+    animation: opacityy 25s infinite ease-in-out, font 25s infinite ease-in-out;
+}
+
+.sts2 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: black;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+    top: 46%;
+
+    animation: opacityyy 25s infinite ease-in-out, font 25s infinite ease-in-out;
+}
+
+
+.ccs1 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #FFFA00;
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    top: 17%;
+
+     animation: opp 26.0s ease-in-out, blinkk 25.0s ease-in-out ;
+}
+
+.ccs2 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #FFFA00;
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    top: 23%;
+
+    animation: opp 26.0s ease-in-out, blinkk 25.0s ease-in-out ;
+}
+
+.ccs3 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #FFFA00;
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    top: 29%;
+
+    animation: opp 26.0s ease-in-out, blinkk 25.0s ease-in-out ;
+}
+
+.ccs4 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #FFFA00;
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    top: 35%;
+
+    animation: opp 26.0s ease-in-out, blinkk 25.0s ease-in-out ;
+}
+
+
+.fls1 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 14.5%;
+    top: 36%;
+
+    animation: opp 15.0s ease-in-out, blinkk 14.0s ease-in-out ;
+}
+
+.fls2 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #FFFA00;
+    position: absolute;
+    text-align: center;
+    left: 46.8%;
+    top: 36%;
+
+    animation: opp 17.0s ease-in-out, blinkk 16.0s ease-in-out ;
+}
+
+.fls3 {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica93-ExtendedBlack;
+    color: #0164FF;
+    position: absolute;
+    text-align: center;
+    left: 77.2%;
+    top: 36%;
+
+    animation: opp 19.0s ease-in-out, blinkk 18.0s ease-in-out ;
+}
+
+
+
+.flower1 {
+    position: absolute;
+
+    animation: rotatefl 5s linear infinite ;
+    transform-origin: 50% 50%;
+}
+
+.flower2 {
+    position: absolute;
+
+    animation: rotatefl 5s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.flower3 {
+    position: absolute;
+
+    animation: rotatefl 5s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+
+.star1 {
+    position: absolute;
+
+    animation: movingst 2s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.star2 {
+    position: absolute;
+
+    animation: movingstt 2s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.star3 {
+    position: absolute;
+
+    animation: movingst 3s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+.parkle1 {
+    position: absolute;
+
+    animation: blinkk 0.8s ease-in-out infinite alternate;
+}
+
+.parkle2 {
+    position: absolute;
+
+    animation: blinkk 0.8s ease-in-out infinite alternate;
+    animation-delay: 0.7s;
+}
+
+.parkle3 {
+    position: absolute;
+
+    animation: blinkk 1.0s ease-in-out infinite alternate;
+}
+
+.parkle4 {
+    position: absolute;
+
+    animation: blinkk 0.8s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+}
+
+.parkle5 {
+    position: absolute;
+
+    animation: blinkk 0.8s ease-in-out infinite alternate;
+    animation-delay: 0.3s;
+}
+
+.cle1 {
+    position: absolute;
+
+    animation: blinkk 20s ease-in-out ; 
+}
+
+.cle2 {
+    position: absolute;
+    display: hidden;
+
+    animation: blinkk 21.5s ease-in-out ;
+}
+
+.cle3 {
+    position: absolute;
+    display: hidden;
+
+    animation: blinkk 23s ease-in-out ;
+}
+ 
+
+.play {
+    width: 35px;
+    height: 35px;
+    border-color: transparent transparent transparent #0164FF;
+    border-style: solid solid solid solid;
+    border-width: 17.5px 0 17.5px 30px;
+    position: absolute;
+    left: 4.2%;
+    top: 38%;
+}  
+
+
+
+
+@keyframes rotatefl{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes movingst{
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes movingstt{
+    0% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes blinkk {
+    0% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 88%;
+    }
+}
+
+@keyframes typingg {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 48%;
+    }
+}
+
+@keyframes typinggg {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 3.5%;
+    }
+}
+
+@keyframes opp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+
+@keyframes opacityy {
+    0% { 
+        opacity:0;
+    }
+
+    50% { 
+        opacity:1;
+    }
+
+    100% { 
+        opacity:1;
+        }
+    }
+
+@keyframes opacityyy {
+    0% { 
+        opacity:0;
+    } 
+
+    50% { 
+        opacity:1;
+    } 
+
+    100% { 
+        opacity:1;
+        }
+    }
+
+@keyframes font {
+    0% {color::#FFFA00;}
+    25% {color:#FF00BF;}
+    50% {color:#0164FF;}
+    75% {color:#FF00BF;}
+    100% {color:#FFFA00;}
+    }
+
